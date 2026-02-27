@@ -6,7 +6,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: path.join(__dirname, "../../.env") });
 
 export const PORT = process.env.PORT || 5000;
-export const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://root:root@cluster0.u5wfops.mongodb.net/?appName=Cluster0";
+export const MONGO_URI = process.env.MONGO_URI ;
 export const JWT_SECRET = process.env.JWT_SECRET || "supersecret";
 export const FIREBASE_PROJECT_ID = process.env.FIREBASE_PROJECT_ID;
 export const FIREBASE_PRIVATE_KEY = process.env.FIREBASE_PRIVATE_KEY 
